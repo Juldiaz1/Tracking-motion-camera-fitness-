@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Motion Fitness Tracker",
+    "slug": "tracking-motion-camera-fitness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Motion Fitness Tracker uses the camera to track body movement during exercise."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    }
+  }
+}
